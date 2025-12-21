@@ -50,17 +50,40 @@ in the source repositories.
 
 ---
 
+## Documentation Workflow
+
+Documentation is authored **within each package repository** and aggregated into
+a unified site via Git submodules and an automated synchronization step.
+
+The aggregation process is intentionally explicit and reproducible:
+- Each EB package maintains its own `docs/` directory
+- The `eb-docs` repository includes those packages as Git submodules
+- A sync script copies package documentation into a unified navigation tree
+
+For implementation details, see:
+
+```
+scripts/sync-packages-docs.ps1
+```
+
+This design ensures documentation remains:
+- Owned by the package it describes
+- Version-aligned with source code
+- Reproducible from repository state
+
+---
+
 ## Scope
 
 This repository focuses on documentation, synthesis, and navigation.
 
-In scope:
+**In scope:**
 - Conceptual overviews of the Electric Barometer framework
 - Cross-package documentation and relationships
 - Getting-started and orientation materials
 - Rendered API documentation links
 
-Out of scope:
+**Out of scope:**
 - Metric implementations
 - Evaluation logic
 - Model adapters
@@ -72,19 +95,19 @@ Those responsibilities live in the companion EB repositories.
 
 ## Relationship to Other EB Repositories
 
-- eb-papers  
+- **eb-papers**  
   Source of truth for theoretical motivation, formal definitions, and research context.
 
-- eb-metrics  
+- **eb-metrics**  
   Implements cost-aware loss functions and service-level diagnostics.
 
-- eb-evaluation  
+- **eb-evaluation**  
   Orchestrates model evaluation, comparison, and selection workflows.
 
-- eb-adapters  
+- **eb-adapters**  
   Normalizes external forecasting models to a consistent interface.
 
-When discrepancies arise, conceptual intent in eb-papers should be treated as authoritative.
+When discrepancies arise, conceptual intent in `eb-papers` should be treated as authoritative.
 
 ---
 
