@@ -1,6 +1,6 @@
 site_name: Electric Barometer
 site_description: Documentation hub for the Electric Barometer ecosystem
-site_url: site_url: https://economistician.github.io/eb-docs/
+site_url: https://economistician.github.io/eb-docs/
 
 repo_name: Economistician/eb-docs
 repo_url: https://github.com/Economistician/eb-docs
@@ -16,6 +16,28 @@ nav:
   - Home: index.md
   - Getting Started: getting-started.md
   - Ecosystem: ecosystem.md
+  - Packages:
+      - eb-metrics:
+          - Home: packages/eb-metrics/index.md
+          - API Reference:
+              - Metrics: packages/eb-metrics/api/metrics.md
+              - Frameworks: packages/eb-metrics/api/frameworks.md
+      - eb-evaluation:
+          - Home: packages/eb-evaluation/index.md
+          - API Reference:
+              - Adjustment: packages/eb-evaluation/api/adjustment.md
+              - DataFrame: packages/eb-evaluation/api/dataframe.md
+              - Features: packages/eb-evaluation/api/features.md
+              - Model Selection: packages/eb-evaluation/api/model_selection.md
+              - Utils: packages/eb-evaluation/api/utils.md
+      - eb-adapters:
+          - Home: packages/eb-adapters/index.md
+          - API Reference:
+              - Base: packages/eb-adapters/api/base.md
+              - CatBoost: packages/eb-adapters/api/catboost.md
+              - LightGBM: packages/eb-adapters/api/lightgbm.md
+              - Prophet: packages/eb-adapters/api/prophet.md
+              - Statsmodels: packages/eb-adapters/api/statsmodels.md
 
 markdown_extensions:
   - admonition
