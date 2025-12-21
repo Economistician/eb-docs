@@ -1,6 +1,6 @@
 # Papers and Technical Notes
 
-The Electric Barometer research artifacts (papers and technical notes) are published
+The Electric Barometer research artifacts are published
 as versioned PDFs in the `eb-papers` repository. This page provides direct access to
 the **most recent stable versions** of each artifact.
 
