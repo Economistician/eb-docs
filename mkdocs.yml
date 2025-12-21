@@ -7,12 +7,23 @@ repo_url: https://github.com/Economistician/eb-docs
 
 theme:
   name: material
-  logo: assets/logo.svg
-  favicon: assets/favicon.png
+  # logo: assets/logo.svg
+  # favicon: assets/favicon.png
   palette:
+    # Light mode
     - scheme: default
-      primary: black
-      accent: cyan
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   features:
     - navigation.tabs
     - navigation.sections
@@ -22,6 +33,14 @@ theme:
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+  - Concepts:
+      - Motivation: concepts/motivation.md
+      - Core Concepts: concepts/core-concepts.md
+      - How Electric Barometer Works: concepts/how-electric-barometer-works.md
+      - Glossary: concepts/glossary.md
+      - FAQ: concepts/faq.md
+  - Guides:
+      - Using Electric Barometer: guides/usage.md
   - Ecosystem: ecosystem.md
   - Papers: papers.md
   - Packages:
@@ -58,6 +77,14 @@ markdown_extensions:
 
 plugins:
   - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: numpy
+            show_root_heading: true
+            show_source: false
+            members_order: source
 
 extra_css:
   - stylesheets/extra.css
