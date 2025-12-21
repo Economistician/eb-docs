@@ -1,0 +1,9 @@
+[submodule "external/eb-metrics"]
+	path = external/eb-metrics
+	url = https://github.com/Economistician/eb-metrics
+[submodule "external/eb-evaluation"]
+	path = external/eb-evaluation
+	url = https://github.com/Economistician/eb-evaluation
+[submodule "external/eb-adapters"]
+	path = external/eb-adapters
+	url = https://github.com/Economistician/eb-adapters
