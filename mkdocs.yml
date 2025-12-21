@@ -16,6 +16,7 @@ nav:
   - Home: index.md
   - Getting Started: getting-started.md
   - Ecosystem: ecosystem.md
+  - Papers: papers.md
   - Packages:
       - eb-metrics:
           - Home: packages/eb-metrics/index.md
