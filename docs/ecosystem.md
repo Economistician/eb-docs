@@ -56,6 +56,23 @@ Typical responsibilities include:
 
 ---
 
+### eb-features
+
+Provides lightweight, frequency-agnostic feature engineering utilities for
+panel time-series data (entity × timestamp).
+
+This package answers the question:
+How do I construct consistent, leakage-safe model inputs from operational panel data?
+
+Typical responsibilities include:
+- lag and rolling window features computed within entity boundaries
+- calendar/time-derived features (hour, day-of-week, month, weekend)
+- optional cyclical encodings (sin/cos) for periodic time signals
+- basic validation (required columns, monotonic timestamps) and simple encoders
+  for passthrough non-numeric columns
+
+---
+
 ### eb-papers
 
 Contains the theoretical foundations, technical notes, and formal derivations
