@@ -54,7 +54,6 @@ nav:
           - API Reference:
               - Adjustment: packages/eb-evaluation/api/adjustment.md
               - DataFrame: packages/eb-evaluation/api/dataframe.md
-              - Features: packages/eb-evaluation/api/features.md
               - Model Selection: packages/eb-evaluation/api/model_selection.md
               - Utils: packages/eb-evaluation/api/utils.md
       - eb-adapters:
@@ -65,6 +64,17 @@ nav:
               - LightGBM: packages/eb-adapters/api/lightgbm.md
               - Prophet: packages/eb-adapters/api/prophet.md
               - Statsmodels: packages/eb-adapters/api/statsmodels.md
+      - eb-features:
+          - Home: packages/eb-features/index.md
+          - API Reference:
+              - Calendar: packages/eb-features/api/calendar.md
+              - Config: packages/eb-features/api/config.md
+              - Constants: packages/eb-features/api/constants.md
+              - Encoders: packages/eb-features/api/encoders.md
+              - Engineering: packages/eb-features/api/engineering.md
+              - Lags: packages/eb-features/api/lags.md
+              - Rolling: packages/eb-features/api/rolling.md
+              - Validation: packages/eb-features/api/validation.md
 
 markdown_extensions:
   - admonition
