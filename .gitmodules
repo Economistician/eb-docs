@@ -7,3 +7,6 @@
 [submodule "external/eb-adapters"]
 	path = external/eb-adapters
 	url = https://github.com/Economistician/eb-adapters
+[submodule "external/eb-features"]
+	path = external/eb-features
+	url = https://github.com/Economistician/eb-features
