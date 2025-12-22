@@ -28,6 +28,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.top
+    - navigation.indexes
     - content.code.copy
 
 nav:
@@ -95,6 +96,8 @@ plugins:
             show_root_heading: true
             show_source: false
             members_order: source
+            show_signature: true
+            show_if_no_docstring: false
 
 extra_css:
   - stylesheets/extra.css

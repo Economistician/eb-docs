@@ -23,10 +23,20 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install MkDocs tooling
+      - name: Install MkDocs tooling + plugins
         run: |
           python -m pip install --upgrade pip
-          pip install mkdocs-material
+          pip install \
+            mkdocs-material \
+            mkdocstrings[python] \
+            pymdown-extensions
+
+      - name: Install Electric Barometer packages (from submodules)
+        run: |
+          pip install -e external/eb-metrics
+          pip install -e external/eb-evaluation
+          pip install -e external/eb-adapters
+          pip install -e external/eb-features
 
       - name: Sync package docs into unified tree
         shell: pwsh
