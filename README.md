@@ -1,4 +1,4 @@
-# Electric Barometer Documentation (eb-docs)
+# Electric Barometer Documentation (`eb-docs`)
 
 ![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)
 ![Project Status](https://img.shields.io/badge/Status-Alpha-yellow)
