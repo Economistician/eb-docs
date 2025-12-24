@@ -13,6 +13,7 @@ All links below automatically resolve to the latest published release.
 | Artifact | Description | PDF |
 |--------|-------------|-----|
 | **Forecast Readiness Framework (FRF)** | The canonical decision-oriented framework for evaluating whether forecasting systems are fit for operational deployment under asymmetric error cost. FRF decomposes forecast readiness into complementary diagnostic dimensions—service reliability, failure severity, tolerance stability, and economic consequence—and provides a structured basis for model selection, monitoring, and governance beyond symmetric accuracy metrics. | [Download](https://github.com/Economistician/eb-papers/releases/latest/download/ElectricBarometer_PAPER_FRF_latest.pdf) |
+| **Limited-Time Offer (LTO) Readiness** | An applied Forecast Readiness Framework paper examining how limited-time offers introduce planned regime shifts into demand systems. The paper formalizes LTOs as exogenous operational shocks, defines readiness-adjusted evaluation boundaries, and demonstrates how asymmetric loss, readiness adjustment layers, and governance controls can be used to assess forecast fitness during promotional periods without conflating planning intent with modeling failure. | [Download](https://github.com/Economistician/eb-papers/releases/latest/download/ElectricBarometer_PAPER_LTOR_latest.pdf) |
 
 ---
 
