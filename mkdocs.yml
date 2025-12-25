@@ -43,6 +43,7 @@ nav:
   - Guides:
       - Using Electric Barometer: guides/usage.md
   - Ecosystem: ecosystem.md
+  - Versioning: versioning.md
   - Papers: papers.md
   - Packages:
       - eb-metrics:
