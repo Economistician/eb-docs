@@ -77,6 +77,41 @@ nav:
               - Lags: packages/eb-features/api/lags.md
               - Rolling: packages/eb-features/api/rolling.md
               - Validation: packages/eb-features/api/validation.md
+      - eb-optimization:
+          - Home: packages/eb-optimization/index.md
+          - Getting Started:
+              - Installation: packages/eb-optimization/getting-started/installation.md
+              - Quickstart: packages/eb-optimization/getting-started/quickstart.md
+          - Concepts:
+              - Layering and Scope: packages/eb-optimization/concepts/layering-and-scope.md
+              - Artifacts and Governance: packages/eb-optimization/concepts/artifacts-and-governance.md
+              - Policies: packages/eb-optimization/concepts/policies.md
+              - Tuning: packages/eb-optimization/concepts/tuning.md
+              - Search and Tie-Breaking: packages/eb-optimization/concepts/search-and-tie-breaking.md
+          - Guides:
+              - Estimate Cost Ratio (R): packages/eb-optimization/guides/estimate-cost-ratio-R.md
+              - Estimate Tau (τ): packages/eb-optimization/guides/estimate-tau.md
+              - Tune RAL: packages/eb-optimization/guides/tune-ral.md
+              - Run Sensitivity Sweeps: packages/eb-optimization/guides/run-sensitivity-sweeps.md
+              - Use Policies in eb-evaluation: packages/eb-optimization/guides/use-policies-in-eb-evaluation.md
+          - API Reference:
+              - Overview: packages/eb-optimization/api/overview.md
+              - Tuning:
+                  - Cost Ratio: packages/eb-optimization/api/tuning/cost-ratio.md
+                  - Tau (τ): packages/eb-optimization/api/tuning/tau.md
+                  - RAL: packages/eb-optimization/api/tuning/ral.md
+                  - Sensitivity: packages/eb-optimization/api/tuning/sensitivity.md
+              - Search:
+                  - Grid: packages/eb-optimization/api/search/grid.md
+                  - Kernels: packages/eb-optimization/api/search/kernels.md
+              - Policies:
+                  - Cost Ratio Policy: packages/eb-optimization/api/policies/cost-ratio-policy.md
+                  - Tau Policy: packages/eb-optimization/api/policies/tau-policy.md
+                  - RAL Policy: packages/eb-optimization/api/policies/ral-policy.md
+          - Development:
+              - Contributing: packages/eb-optimization/development/contributing.md
+              - Testing and CI: packages/eb-optimization/development/testing-and-ci.md
+              - Release Process: packages/eb-optimization/development/release-process.md
 
 markdown_extensions:
   - admonition
@@ -92,6 +127,12 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
+          paths:
+            - external/eb-metrics/src
+            - external/eb-evaluation/src
+            - external/eb-adapters/src
+            - external/eb-features/src
+            - external/eb-optimization/src
           options:
             docstring_style: numpy
             show_root_heading: true
