@@ -10,3 +10,6 @@
 [submodule "external/eb-features"]
 	path = external/eb-features
 	url = https://github.com/Economistician/eb-features
+[submodule "external/eb-optimization"]
+	path = external/eb-optimization
+	url = https://github.com/Economistician/eb-optimization.git
