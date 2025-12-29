@@ -1,11 +1,11 @@
 # Forecast API
 
-This page documents the **forecast validation entrypoints**.
+This page documents **forecast contract definitions**.
 
 All content below is generated automatically from **NumPy-style docstrings**
 in the source code.
 
 ## Forecast API
 
-::: eb_contracts.validate.panel_point_v1
-::: eb_contracts.validate.panel_quantile_v1
+::: eb_contracts.forecast.v1.PanelPointForecastV1
+::: eb_contracts.forecast.v1.PanelQuantileForecastV1

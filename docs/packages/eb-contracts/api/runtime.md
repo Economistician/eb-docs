@@ -7,4 +7,4 @@ in the source code.
 
 ## Runtime API
 
-::: eb_contracts.validate.set_validation_mode
+::: eb_contracts.set_validation_mode

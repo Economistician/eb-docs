@@ -1,11 +1,14 @@
 # Definitions API
 
-This page documents the **canonical definitions layer** used by contracts.
+This page documents **shared definitions** used across contract models and validators
+(e.g., semantic profiles, unit specs, and required column conventions).
 
-This content is **reference-oriented**, not executable.
+All content below is generated automatically from **NumPy-style docstrings**
+in the source code.
 
----
+## Definitions API
 
-## Definitions
-
-See conceptual documentation for semantics and governance rules.
+::: eb_contracts.definitions.SemanticProfile
+::: eb_contracts.definitions.UnitSpec
+::: eb_contracts.definitions.required_columns_point
+::: eb_contracts.definitions.required_columns_quantile

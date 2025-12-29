@@ -1,13 +1,17 @@
 # API Reference
 
-This section documents the **public API surface** of eb-contracts.
+This section provides the **public API reference** for `eb-contracts`.
 
-All entrypoints are stable and versioned.
+All content in the pages below is generated automatically from **NumPy-style docstrings**
+in the source code (unless otherwise noted).
 
----
+## APIs
 
-## Public entrypoint rule
-
-Use `eb_contracts.validate`.
-
-Do not import versioned classes directly.
+- [Validation](validate.md)
+- [Runtime](runtime.md)
+- [Context](context.md)
+- [Costs](costs.md)
+- [Definitions](definitions.md)
+- [Forecast](forecast.md)
+- [Migrate](migrate.md)
+- [Results](results.md)

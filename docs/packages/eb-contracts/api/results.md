@@ -1,6 +1,7 @@
 # Results API
 
-This page documents the **result artifact entrypoints**.
+This page documents **validated result artifacts** produced by contract
+validation workflows.
 
 All content below is generated automatically from **NumPy-style docstrings**
 in the source code.
