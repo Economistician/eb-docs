@@ -77,7 +77,7 @@ Lightweight, frequency-agnostic feature engineering for panel time series.
 
 ## Documentation structure
 
-- **API Reference**  
+- **API Reference**
   All documentation is generated automatically from NumPy-style docstrings in
   the source code using `mkdocstrings`.
 

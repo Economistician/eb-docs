@@ -35,5 +35,5 @@ All links below automatically resolve to the latest published release.
 
 ## Version History
 
-For older versions and the full release history, see:  
+For older versions and the full release history, see:
 https://github.com/Economistician/eb-papers/releases

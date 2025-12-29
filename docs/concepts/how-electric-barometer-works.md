@@ -1,6 +1,6 @@
 # How Electric Barometer Works
 
-Electric Barometer is not a forecasting model.  
+Electric Barometer is not a forecasting model.
 It is a **decision framework** for evaluating, comparing, and selecting forecasting systems based on how their errors translate into **real operational costs**.
 
 This section explains how the framework operates conceptually and mechanically.
@@ -40,22 +40,22 @@ Readiness reflects how forecast errors propagate into outcomes such as:
 
 At a high level, Electric Barometer evaluates forecasts through the following steps:
 
-1. **Generate candidate forecasts**  
+1. **Generate candidate forecasts**
    Multiple models or forecasting systems produce predictions for the same target.
 
-2. **Define operational asymmetry**  
+2. **Define operational asymmetry**
    The cost of over-forecasting and under-forecasting is explicitly specified.
    These costs may differ in magnitude, shape, or tolerance.
 
-3. **Transform error into loss**  
+3. **Transform error into loss**
    Forecast errors are mapped through asymmetric loss functions that reflect
    real operational consequences.
 
-4. **Aggregate readiness metrics**  
+4. **Aggregate readiness metrics**
    Loss is summarized into interpretable metrics that reflect overall readiness,
    not raw error.
 
-5. **Select or rank forecasts**  
+5. **Select or rank forecasts**
    Forecasts are compared based on their readiness under the defined conditions.
 
 Each step is modular and intentionally decoupled from any specific modeling technology.
@@ -105,13 +105,13 @@ This makes the framework suitable for governance, review, and deployment decisio
 
 Electric Barometer intentionally separates responsibilities:
 
-- **Metrics**  
+- **Metrics**
   Define how loss and readiness are computed.
 
-- **Evaluation utilities**  
+- **Evaluation utilities**
   Orchestrate comparisons, adjustments, and aggregations.
 
-- **Adapters**  
+- **Adapters**
   Normalize outputs from diverse forecasting systems into a common interface.
 
 This separation allows:

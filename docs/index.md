@@ -35,7 +35,7 @@ auditable, and aligned with operational priorities.
 - It does not replace model training pipelines
 - It does not prescribe a single “best” forecast
 
-Electric Barometer does not compete with forecasting methods.  
+Electric Barometer does not compete with forecasting methods.
 It governs **how forecasts are evaluated and selected** once they exist.
 
 ---

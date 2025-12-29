@@ -12,9 +12,9 @@ This section describes typical usage patterns and integration flows.
 
 A standard Electric Barometer workflow consists of four stages:
 
-1. **Forecast Generation**  
-2. **Evaluation Configuration**  
-3. **Readiness & Cost Assessment**  
+1. **Forecast Generation**
+2. **Evaluation Configuration**
+3. **Readiness & Cost Assessment**
 4. **Selection & Reporting**
 
 Each stage is intentionally decoupled to allow flexibility in implementation.

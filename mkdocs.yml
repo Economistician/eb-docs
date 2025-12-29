@@ -46,6 +46,37 @@ nav:
   - Versioning: versioning.md
   - Papers: papers.md
   - Packages:
+      - eb-contracts:
+          - Home: packages/eb-contracts/index.md
+          - Changelog: packages/eb-contracts/changelog.md
+          - Getting Started:
+              - Installation: packages/eb-contracts/getting-started/install.md
+              - Quickstart: packages/eb-contracts/getting-started/quickstart.md
+              - Validation Modes: packages/eb-contracts/getting-started/validation-modes.md
+          - Concepts:
+              - What Is a Contract?: packages/eb-contracts/concepts/what-is-a-contract.md
+              - Versioning: packages/eb-contracts/concepts/versioning.md
+              - Canonical Columns: packages/eb-contracts/concepts/canonical-columns.md
+              - Semantics and Units: packages/eb-contracts/concepts/semantics-and-units.md
+              - Errors and Violations: packages/eb-contracts/concepts/errors-and-violations.md
+          - Guides:
+              - Forecasts: packages/eb-contracts/guides/forecasts.md
+              - Costs: packages/eb-contracts/guides/costs.md
+              - Results: packages/eb-contracts/guides/results.md
+              - Context: packages/eb-contracts/guides/context.md
+              - Interoperability: packages/eb-contracts/guides/interoperability.md
+              - Migration: packages/eb-contracts/guides/migration.md
+          - API Reference:
+              - Overview: packages/eb-contracts/api/index.md
+              - Forecast: packages/eb-contracts/api/forecast.md
+              - Costs: packages/eb-contracts/api/costs.md
+              - Results: packages/eb-contracts/api/results.md
+              - Context: packages/eb-contracts/api/context.md
+              - Runtime: packages/eb-contracts/api/runtime.md
+              - Migrate: packages/eb-contracts/api/migrate.md
+              - Validate: packages/eb-contracts/api/validate.md
+              - Definitions: packages/eb-contracts/api/definitions.md
+
       - eb-metrics:
           - Home: packages/eb-metrics/index.md
           - API Reference:
@@ -128,6 +159,7 @@ plugins:
       handlers:
         python:
           paths:
+            - external/eb-contracts/src
             - external/eb-metrics/src
             - external/eb-evaluation/src
             - external/eb-adapters/src

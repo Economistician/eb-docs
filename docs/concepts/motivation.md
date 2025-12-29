@@ -12,15 +12,15 @@ Electric Barometer exists to address this gap.
 
 Traditional forecast evaluation implicitly assumes that all errors are equal. This assumption breaks down in operational systems where forecasts drive actions such as:
 
-- Inventory ordering and production planning  
-- Labor scheduling and staffing decisions  
-- Service-level commitments and capacity allocation  
-- Waste reduction and shortage prevention  
+- Inventory ordering and production planning
+- Labor scheduling and staffing decisions
+- Service-level commitments and capacity allocation
+- Waste reduction and shortage prevention
 
 For example:
 
-- A 10% over-forecast may result in waste, spoilage, or idle labor  
-- A 10% under-forecast may result in stockouts, service loss, or customer dissatisfaction  
+- A 10% over-forecast may result in waste, spoilage, or idle labor
+- A 10% under-forecast may result in stockouts, service loss, or customer dissatisfaction
 
 From an operational perspective, these two errors are *not equivalent*, even if their statistical magnitude is identical.
 
@@ -32,7 +32,7 @@ In most production, service, and logistics environments:
 
 - Costs are **nonlinear**
 - Penalties are **asymmetric**
-- Risk tolerance varies by context, time, and objective  
+- Risk tolerance varies by context, time, and objective
 
 Yet most forecasting pipelines still rely on symmetric loss functions and aggregate accuracy scores.
 
@@ -60,9 +60,9 @@ Electric Barometer asks:
 
 This change in framing enables:
 
-- Context-aware model comparison  
-- Explicit tradeoff analysis between competing forecasts  
-- Transparent alignment between analytics and operational priorities  
+- Context-aware model comparison
+- Explicit tradeoff analysis between competing forecasts
+- Transparent alignment between analytics and operational priorities
 
 Accuracy still matters—but it is no longer the sole objective.
 
@@ -74,9 +74,9 @@ Electric Barometer does not generate forecasts.
 
 Instead, it provides a **measurement and selection framework** that evaluates competing forecasting systems under asymmetric, cost-aware criteria. This makes it compatible with:
 
-- Statistical forecasting models  
-- Machine learning and deep learning approaches  
-- Vendor-provided or black-box forecasting engines  
+- Statistical forecasting models
+- Machine learning and deep learning approaches
+- Vendor-provided or black-box forecasting engines
 
 By separating *forecast generation* from *forecast evaluation*, Electric Barometer allows organizations to evolve their modeling strategies without rewriting their decision logic.
 
@@ -86,10 +86,10 @@ By separating *forecast generation* from *forecast evaluation*, Electric Baromet
 
 Electric Barometer is designed for:
 
-- Analytics teams supporting operational decision-making  
-- Data scientists working in production environments  
-- Forecast governance bodies and review committees  
-- Leaders responsible for balancing performance, cost, and risk  
+- Analytics teams supporting operational decision-making
+- Data scientists working in production environments
+- Forecast governance bodies and review committees
+- Leaders responsible for balancing performance, cost, and risk
 
 It is especially well-suited for industries where small forecast errors can have outsized consequences.
 
@@ -99,9 +99,9 @@ It is especially well-suited for industries where small forecast errors can have
 
 Electric Barometer provides the conceptual foundation for:
 
-- Cost-aware loss metrics  
-- Readiness-adjusted evaluation layers  
-- Transparent forecast governance  
-- Operationally defensible model selection  
+- Cost-aware loss metrics
+- Readiness-adjusted evaluation layers
+- Transparent forecast governance
+- Operationally defensible model selection
 
 The following sections introduce the core concepts that make this possible.

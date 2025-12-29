@@ -12,9 +12,9 @@ including lags, rolling statistics, and calendar-derived features.
 
 Electric Barometer packages follow a consistent naming convention:
 
-- **Distribution names** (used with `pip install`) use hyphens  
+- **Distribution names** (used with `pip install`) use hyphens
   e.g. `pip install eb-features`
-- **Python import paths** use underscores  
+- **Python import paths** use underscores
   e.g. `import eb_features`
 
 ---
@@ -36,7 +36,7 @@ Electric Barometer packages follow a consistent naming convention:
 
 ## Documentation structure
 
-- **API Reference**  
+- **API Reference**
   All module documentation is generated automatically from NumPy-style docstrings
   in the source code using `mkdocstrings`.
 

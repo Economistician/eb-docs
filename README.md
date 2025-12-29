@@ -45,16 +45,16 @@ The documentation in this repository is organized to mirror the structure and na
 
 At a high level, the documentation is divided into:
 
-- **Concepts**  
+- **Concepts**
   High-level explanations of core ideas, terminology, and design principles underlying the Electric Barometer ecosystem. These pages focus on *what* the system is and *why* it is structured the way it is, without requiring familiarity with the underlying code.
 
-- **Ecosystem Overview**  
+- **Ecosystem Overview**
   Descriptions of how the Electric Barometer repositories fit together, including the relationship between research papers, documentation, and implementation packages.
 
-- **Package Documentation**  
+- **Package Documentation**
   Reference material for individual implementation repositories (such as `eb-metrics`, `eb-evaluation`, `eb-features`, and `eb-adapters`). These sections explain package responsibilities, exposed interfaces, and expected usage patterns, without duplicating source-level API documentation.
 
-- **Guides and Usage Notes**  
+- **Guides and Usage Notes**
   Practical, task-oriented guidance for applying Electric Barometer concepts and tooling in real workflows. These guides emphasize how components are combined and used, rather than step-by-step installation instructions.
 
 The structure is intentionally stable and extensible. New concepts, packages, and guides can be added without restructuring the site, ensuring that the documentation evolves alongside the ecosystem while remaining easy to navigate.
@@ -90,5 +90,5 @@ This repository is the source of truth for the published documentation. Changes 
 
 ## License
 
-BSD 3-Clause License.  
+BSD 3-Clause License.
 © 2025 Kyle Corrie.
