@@ -13,3 +13,6 @@
 [submodule "external/eb-optimization"]
 	path = external/eb-optimization
 	url = https://github.com/Economistician/eb-optimization.git
+[submodule "external/eb-contracts"]
+	path = external/eb-contracts
+	url = https://github.com/Economistician/eb-contracts
