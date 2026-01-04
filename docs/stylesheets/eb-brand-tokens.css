@@ -1,6 +1,7 @@
 :root {
   --eb-light-background-canvas: #F8FAFC;
   --eb-light-background-surface: #EEF2F7;
+  --eb-light-background-header: #243E56;
   --eb-light-background-divider: #D6DCE5;
   --eb-light-text-primary: #111827;
   --eb-light-text-secondary: #4B5563;
@@ -11,6 +12,7 @@
   --eb-light-brand-accent_muted: #E6D38A;
   --eb-dark-background-canvas: #0B0F14;
   --eb-dark-background-surface: #111827;
+  --eb-dark-background-header: #3B5670;
   --eb-dark-background-divider: #1F2937;
   --eb-dark-text-primary: #E5E7EB;
   --eb-dark-text-secondary: #9CA3AF;
