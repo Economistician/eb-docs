@@ -7,8 +7,8 @@ repo_url: https://github.com/Economistician/eb-docs
 
 theme:
   name: material
-  # logo: assets/logo.svg
-  # favicon: assets/favicon.png
+  logo: assets/brand/logo/electric_barometer.svg
+  favicon: assets/brand/favicon/favicon.svg
   palette:
     # Light mode
     - scheme: default
@@ -174,6 +174,8 @@ plugins:
             show_if_no_docstring: false
 
 extra_css:
+  - stylesheets/eb-brand-tokens.css
+  - stylesheets/eb-brand-colors.css
   - stylesheets/extra.css
 
 extra_javascript:
