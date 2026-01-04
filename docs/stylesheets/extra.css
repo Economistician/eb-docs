@@ -1,91 +1,9 @@
 /* =========================================================
-   Electric Barometer – Professional Minimal Skin
+   Electric Barometer – Local tweaks (non-brand)
+   NOTE: Brand colors are managed in eb-brand and synced into:
+   - docs/stylesheets/eb-brand-tokens.css
+   - docs/stylesheets/eb-brand-colors.css
    ========================================================= */
-
-/* ---------------------------------------------------------
-   Core Palette (Electric Barometer)
-   --------------------------------------------------------- */
-:root {
-  /* Identity */
-  --eb-instrument-blue: #274C77;        /* Primary */
-  --eb-electric-signal-blue: #3A86FF;   /* Accent */
-
-  /* Neutrals */
-  --eb-graphite-slate: #2A2F36;
-  --eb-muted-gray: #6B7280;
-
-  /* Semantic (future use) */
-  --eb-operational-amber: #E09F3E;
-  --eb-readiness-green: #2D6A4F;
-
-  /* Bind to MkDocs Material variables */
-  --md-primary-fg-color: var(--eb-instrument-blue);
-  --md-accent-fg-color: var(--eb-electric-signal-blue);
-
-  /* Keep defaults sane in light mode */
-  --md-typeset-color: var(--eb-graphite-slate);
-}
-
-/* ---------------------------------------------------------
-   Dark mode tuning (match TOC / right-side menu readability)
-   Material sets data-md-color-scheme="slate" when scheme: slate
-   --------------------------------------------------------- */
-[data-md-color-scheme="slate"] {
-  /* Body + headings */
-  --md-default-fg-color: rgba(255, 255, 255, 0.88);
-  --md-default-fg-color--light: rgba(255, 255, 255, 0.72);
-  --md-default-fg-color--lighter: rgba(255, 255, 255, 0.56);
-
-  /* This is what most prose uses */
-  --md-typeset-color: var(--md-default-fg-color);
-
-  /* Optional: make muted text still readable */
-  --md-typeset-a11y-color: var(--md-default-fg-color);
-
-  /* Inline code background shouldn’t be too dark */
-  --eb-inline-code-bg-dark: rgba(58, 134, 255, 0.12);
-}
-
-/* ---------------------------------------------------------
-   Header & Navigation
-   --------------------------------------------------------- */
-
-/* Top header bar */
-.md-header {
-  background-color: var(--md-primary-fg-color);
-}
-
-/* Tabs (desktop navigation) */
-.md-tabs {
-  background-color: var(--md-primary-fg-color);
-}
-
-/* Drawer (hamburger menu) title/header */
-.md-nav--primary .md-nav__title[for="__drawer"] {
-  background-color: var(--md-primary-fg-color);
-  color: #ffffff;
-}
-
-/* Drawer title text */
-.md-nav--primary .md-nav__title {
-  font-weight: 500;
-}
-
-/* ---------------------------------------------------------
-   Links & Interaction
-   --------------------------------------------------------- */
-
-.md-content a,
-.md-nav a:hover,
-.md-tabs__link--active {
-  color: var(--md-accent-fg-color);
-}
-
-/* Header icons (search, GitHub, etc.) */
-.md-header__button:hover,
-.md-icon:hover {
-  color: var(--md-accent-fg-color);
-}
 
 /* ---------------------------------------------------------
    Typography & Content
@@ -97,11 +15,6 @@
   letter-spacing: 0.2px;
 }
 
-/* IMPORTANT:
-   Don't hard-set .md-typeset color globally (it breaks dark mode).
-   Let Material vars drive it via --md-typeset-color.
-*/
-
 /* ---------------------------------------------------------
    Code Styling
    --------------------------------------------------------- */
@@ -110,16 +23,13 @@ code {
   border-radius: 6px;
 }
 
-/* Inline code contrast without flashiness (light mode) */
+/* Inline code contrast:
+   Use Material vars so dark mode stays correct. */
 .md-typeset code {
-  background-color: rgba(39, 76, 119, 0.06);
+  background-color: color-mix(in srgb, var(--md-primary-bg-color) 10%, transparent);
 }
 
-/* Inline code in dark mode */
+/* Dark mode: slightly stronger inline code background */
 [data-md-color-scheme="slate"] .md-typeset code {
-  background-color: var(--eb-inline-code-bg-dark);
+  background-color: color-mix(in srgb, var(--md-accent-fg-color) 14%, transparent);
 }
-
-/* ---------------------------------------------------------
-   End
-   --------------------------------------------------------- */
