@@ -16,3 +16,9 @@
 [submodule "external/eb-contracts"]
 	path = external/eb-contracts
 	url = https://github.com/Economistician/eb-contracts
+[submodule "external/eb-integration"]
+	path = external/eb-integration
+	url = https://github.com/Economistician/eb-integration.git
+[submodule "external/electric-barometer"]
+	path = external/electric-barometer
+	url = https://github.com/Economistician/electric-barometer.git
