@@ -33,62 +33,91 @@ theme:
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
+
+  - Start:
+      - Overview: start/index.md
+      - Quickstart: start/quickstart.md
+      - Ecosystem Map: start/ecosystem-map.md
+
+  - Electric Barometer: electric-barometer/index.md
+
   - Concepts:
-      - Motivation: concepts/motivation.md
-      - Core Concepts: concepts/core-concepts.md
-      - How Electric Barometer Works: concepts/how-electric-barometer-works.md
+      - Overview: concepts/index.md
+      - Problem Framing: concepts/problem-framing.md
+      - Evaluation vs Decisioning: concepts/evaluation-vs-decisioning.md
+      - Asymmetric Cost: concepts/asymmetric-cost.md
+      - Readiness and RAL: concepts/readiness-and-ral.md
+      - Governance: concepts/governance.md
       - Glossary: concepts/glossary.md
-      - FAQ: concepts/faq.md
+
+  - Workflows:
+      - Overview: workflows/index.md
+      - Data → Forecast: workflows/data-to-forecast.md
+      - Forecast → Evaluation: workflows/forecast-to-evaluation.md
+      - Evaluation → Selection: workflows/evaluation-to-selection.md
+      - Selection → Policy: workflows/selection-to-policy.md
+      - Reproducibility Artifacts: workflows/reproducibility-artifacts.md
+
   - Guides:
-      - Using Electric Barometer: guides/usage.md
-  - Ecosystem: ecosystem.md
-  - Versioning: versioning.md
-  - Papers: papers.md
+      - Overview: guides/index.md
+      - Run an Evaluation: guides/run-an-evaluation.md
+      - Tune a Policy: guides/tune-a-policy.md
+      - Add a Metric: guides/add-a-metric.md
+      - Add an Adapter: guides/add-an-adapter.md
+      - Add a Feature Transform: guides/add-a-feature-transform.md
+      - Contributing: guides/contributing.md
+      - Release Process: guides/release-process.md
+
+  - Papers:
+      - Overview: papers/index.md
+      - Technical Notes: papers/technical-notes.md
+      - Technical Papers: papers/technical-papers.md
+
+  - Reference: reference/index.md
+
   - Packages:
+      - Overview: packages/index.md
+
       - eb-contracts:
           - Home: packages/eb-contracts/index.md
-          - Changelog: packages/eb-contracts/changelog.md
-          - Getting Started:
-              - Installation: packages/eb-contracts/getting-started/install.md
-              - Quickstart: packages/eb-contracts/getting-started/quickstart.md
-              - Validation Modes: packages/eb-contracts/getting-started/validation-modes.md
-          - Concepts:
-              - What Is a Contract?: packages/eb-contracts/concepts/what-is-a-contract.md
-              - Versioning: packages/eb-contracts/concepts/versioning.md
-              - Canonical Columns: packages/eb-contracts/concepts/canonical-columns.md
-              - Semantics and Units: packages/eb-contracts/concepts/semantics-and-units.md
-              - Errors and Violations: packages/eb-contracts/concepts/errors-and-violations.md
-          - Guides:
-              - Forecasts: packages/eb-contracts/guides/forecasts.md
-              - Costs: packages/eb-contracts/guides/costs.md
-              - Results: packages/eb-contracts/guides/results.md
-              - Context: packages/eb-contracts/guides/context.md
-              - Interoperability: packages/eb-contracts/guides/interoperability.md
-              - Migration: packages/eb-contracts/guides/migration.md
           - API Reference:
-              - Overview: packages/eb-contracts/api/index.md
-              - Forecast: packages/eb-contracts/api/forecast.md
-              - Costs: packages/eb-contracts/api/costs.md
-              - Results: packages/eb-contracts/api/results.md
-              - Context: packages/eb-contracts/api/context.md
-              - Runtime: packages/eb-contracts/api/runtime.md
-              - Migrate: packages/eb-contracts/api/migrate.md
-              - Validate: packages/eb-contracts/api/validate.md
               - Definitions: packages/eb-contracts/api/definitions.md
+              - Migrate Forecast: packages/eb-contracts/api/migrate_forecast.md
+              - Validate: packages/eb-contracts/api/validate.md
 
       - eb-metrics:
           - Home: packages/eb-metrics/index.md
           - API Reference:
-              - Metrics: packages/eb-metrics/api/metrics.md
+              - Metrics API: packages/eb-metrics/api/metrics.md
               - Frameworks: packages/eb-metrics/api/frameworks.md
+
       - eb-evaluation:
           - Home: packages/eb-evaluation/index.md
           - API Reference:
-              - Adjustment: packages/eb-evaluation/api/adjustment.md
-              - DataFrame: packages/eb-evaluation/api/dataframe.md
-              - Model Selection: packages/eb-evaluation/api/model_selection.md
-              - Utils: packages/eb-evaluation/api/utils.md
+              - Overview: packages/eb-evaluation/api/index.md
+              - Adjustment:
+                  - RAL: packages/eb-evaluation/api/adjustment/ral.md
+              - DataFrame:
+                  - Entity: packages/eb-evaluation/api/dataframe/entity.md
+                  - Group: packages/eb-evaluation/api/dataframe/group.md
+                  - Hierarchy: packages/eb-evaluation/api/dataframe/hierarchy.md
+                  - Panel: packages/eb-evaluation/api/dataframe/panel.md
+                  - Single: packages/eb-evaluation/api/dataframe/single.md
+              - Diagnostics:
+                  - DQC: packages/eb-evaluation/api/diagnostics/dqc.md
+                  - FPC: packages/eb-evaluation/api/diagnostics/fpc.md
+                  - Governance: packages/eb-evaluation/api/diagnostics/governance.md
+                  - Presets: packages/eb-evaluation/api/diagnostics/presets.md
+                  - Run: packages/eb-evaluation/api/diagnostics/run.md
+                  - Validate: packages/eb-evaluation/api/diagnostics/validate.md
+              - Model Selection:
+                  - Auto Engine: packages/eb-evaluation/api/model_selection/auto_engine.md
+                  - Compare: packages/eb-evaluation/api/model_selection/compare.md
+                  - CWSL Regressor: packages/eb-evaluation/api/model_selection/cwsl_regressor.md
+                  - Electric Barometer: packages/eb-evaluation/api/model_selection/electric_barometer.md
+              - Utils:
+                  - Validation: packages/eb-evaluation/api/utils/validation.md
+
       - eb-adapters:
           - Home: packages/eb-adapters/index.md
           - API Reference:
@@ -97,6 +126,7 @@ nav:
               - LightGBM: packages/eb-adapters/api/lightgbm.md
               - Prophet: packages/eb-adapters/api/prophet.md
               - Statsmodels: packages/eb-adapters/api/statsmodels.md
+
       - eb-features:
           - Home: packages/eb-features/index.md
           - API Reference:
@@ -108,27 +138,14 @@ nav:
               - Lags: packages/eb-features/api/lags.md
               - Rolling: packages/eb-features/api/rolling.md
               - Validation: packages/eb-features/api/validation.md
+
       - eb-optimization:
           - Home: packages/eb-optimization/index.md
-          - Getting Started:
-              - Installation: packages/eb-optimization/getting-started/installation.md
-              - Quickstart: packages/eb-optimization/getting-started/quickstart.md
-          - Concepts:
-              - Layering and Scope: packages/eb-optimization/concepts/layering-and-scope.md
-              - Artifacts and Governance: packages/eb-optimization/concepts/artifacts-and-governance.md
-              - Policies: packages/eb-optimization/concepts/policies.md
-              - Tuning: packages/eb-optimization/concepts/tuning.md
-              - Search and Tie-Breaking: packages/eb-optimization/concepts/search-and-tie-breaking.md
-          - Guides:
-              - Estimate Cost Ratio (R): packages/eb-optimization/guides/estimate-cost-ratio-R.md
-              - Estimate Tau (τ): packages/eb-optimization/guides/estimate-tau.md
-              - Tune RAL: packages/eb-optimization/guides/tune-ral.md
-              - Run Sensitivity Sweeps: packages/eb-optimization/guides/run-sensitivity-sweeps.md
-              - Use Policies in eb-evaluation: packages/eb-optimization/guides/use-policies-in-eb-evaluation.md
           - API Reference:
-              - Overview: packages/eb-optimization/api/overview.md
+              - Overview: packages/eb-optimization/api/index.md
+              - eb_optimization: packages/eb-optimization/api/eb_optimization.md
               - Tuning:
-                  - Cost Ratio: packages/eb-optimization/api/tuning/cost-ratio.md
+                  - Cost Ratio: packages/eb-optimization/api/tuning/cost_ratio.md
                   - Tau (τ): packages/eb-optimization/api/tuning/tau.md
                   - RAL: packages/eb-optimization/api/tuning/ral.md
                   - Sensitivity: packages/eb-optimization/api/tuning/sensitivity.md
@@ -136,13 +153,12 @@ nav:
                   - Grid: packages/eb-optimization/api/search/grid.md
                   - Kernels: packages/eb-optimization/api/search/kernels.md
               - Policies:
-                  - Cost Ratio Policy: packages/eb-optimization/api/policies/cost-ratio-policy.md
-                  - Tau Policy: packages/eb-optimization/api/policies/tau-policy.md
-                  - RAL Policy: packages/eb-optimization/api/policies/ral-policy.md
-          - Development:
-              - Contributing: packages/eb-optimization/development/contributing.md
-              - Testing and CI: packages/eb-optimization/development/testing-and-ci.md
-              - Release Process: packages/eb-optimization/development/release-process.md
+                  - Cost Ratio Policy: packages/eb-optimization/api/policies/cost_ratio_policy.md
+                  - Tau Policy: packages/eb-optimization/api/policies/tau_policy.md
+                  - RAL Policy: packages/eb-optimization/api/policies/ral_policy.md
+
+      - eb-integration:
+          - Home: packages/eb-integration/index.md
 
 markdown_extensions:
   - admonition
@@ -165,6 +181,7 @@ plugins:
             - external/eb-adapters/src
             - external/eb-features/src
             - external/eb-optimization/src
+            - external/eb-integration/src
           options:
             docstring_style: numpy
             show_root_heading: true
