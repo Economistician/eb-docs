@@ -1,99 +1,43 @@
 # Papers
 
-The Papers section provides access to the formal research and technical foundations of the Electric Barometer framework. These documents establish the mathematical, theoretical, and governance principles that underpin the concepts, metrics, and optimization workflows described elsewhere in the documentation.
+This section provides direct access to the formal research and technical foundations of the **Electric Barometer** framework.
 
-All papers live authoritatively in the **eb-papers** repository. This section serves as an orientation and navigation layer only.
-
----
-
-## Role of papers in Electric Barometer
-
-Electric Barometer distinguishes clearly between:
-
-- **Documentation** — explains concepts and workflows  
-- **Guides** — describe how to perform tasks  
-- **Metrics and Optimization** — define evaluation and decision logic  
-- **Papers** — formally prove, justify, and ground the framework  
-
-Papers exist to make the system **rigorous, defensible, and extensible**. They are not required reading for day-to-day use, but they are essential for validation, review, and long-term integrity.
+All papers are authored and maintained in the **eb-papers** repository.  
+This page serves as a **navigation and download index** for the latest authoritative PDF builds.
 
 ---
 
-## Types of papers
+## Technical Papers
 
-The Papers section includes two categories of formal work.
-
-### Technical Notes
-
-**Technical Notes** are focused, component-level documents that define and formalize specific mechanisms within the framework.
-
-They are used to:
-- Establish precise definitions
-- Make assumptions explicit
-- Provide stable, citable references
-
-See **[Technical Notes](technical-notes/)**.
+| Topic | Description | PDF |
+|------|-------------|-----|
+| **Forecast Readiness Framework (FRF)** | Establishes a unified framework for evaluating forecast performance through readiness, asymmetric loss, admissibility, and governance rather than accuracy alone. | [Download](https://github.com/Economistician/eb-papers/releases/latest/download/ElectricBarometer_PAPER_FRF_latest.pdf) |
+| **Limited Time Offer Readiness (LTOR)** | Defines a readiness-centric control framework for managing limited-time offers under demand uncertainty, linking forecasts, loss signals, and operational resolution. | [Download](https://github.com/Economistician/eb-papers/releases/latest/download/ElectricBarometer_PAPER_LTOR_latest.pdf) |
 
 ---
 
-### Technical Papers
+## Technical Notes
 
-**Technical Papers** are extended, system-level works that integrate multiple components into cohesive theoretical frameworks.
-
-They are used to:
-- Present end-to-end architectures
-- Develop theory across layers
-- Support executive, architectural, or academic review
-
-See **[Technical Papers](technical-papers/)**.
-
----
-
-## How papers relate to the rest of the documentation
-
-Papers do not replace documentation. Instead:
-
-- **Concepts** explain *why* ideas exist  
-- **Guides** explain *how* to apply them  
-- **Metrics and Optimization** explain *how behavior is measured and resolved*  
-- **Papers** explain *why the system is valid*  
-
-This separation ensures clarity while preserving rigor.
+| Topic | Description | PDF |
+|------|-------------|-----|
+| **Cost-Weighted Service Loss (CWSL)** | Defines an asymmetric, cost-weighted loss function for evaluating forecast error relative to operational underbuild and overbuild risk. | [Download](https://github.com/Economistician/eb-papers/releases/latest/download/ElectricBarometer_TN_CWSL_latest.pdf) |
+| **CWSL Ratio Calibration (CWSLR)** | Formalizes sensitivity analysis and calibration of the cost ratios governing asymmetric loss in CWSL. | [Download](https://github.com/Economistician/eb-papers/releases/latest/download/ElectricBarometer_TN_CWSLR_latest.pdf) |
+| **Hit Rate at Tolerance (HR@τ)** | Measures the proportion of forecasts that fall within an acceptable tolerance band, capturing operational reliability rather than magnitude of error. | [Download](https://github.com/Economistician/eb-papers/releases/latest/download/ElectricBarometer_TN_HRAT_latest.pdf) |
+| **Tolerance Sensitivity for HR@τ (HRτ)** | Analyzes how tolerance selection affects acceptability rates and readiness interpretation. | [Download](https://github.com/Economistician/eb-papers/releases/latest/download/ElectricBarometer_TN_HRTAU_latest.pdf) |
+| **No-Shortfall Level (NSL)** | Defines a binary coverage metric indicating whether forecasts avoid operational shortfall events within a decision horizon. | [Download](https://github.com/Economistician/eb-papers/releases/latest/download/ElectricBarometer_TN_NSL_latest.pdf) |
+| **Underbuild Depth (UD)** | Quantifies the severity of forecast shortfalls conditional on a shortfall occurring. | [Download](https://github.com/Economistician/eb-papers/releases/latest/download/ElectricBarometer_TN_UD_latest.pdf) |
+| **Forecast Readiness Score (FRS)** | Aggregates multiple readiness and reliability metrics into a single interpretable readiness signal. | [Download](https://github.com/Economistician/eb-papers/releases/latest/download/ElectricBarometer_TN_FRS_latest.pdf) |
+| **Forecast Primitive Compatibility (FPC)** | Diagnoses structural incompatibility between forecast primitives and operational demand processes. | [Download](https://github.com/Economistician/eb-papers/releases/latest/download/ElectricBarometer_TN_FPC_latest.pdf) |
+| **Demand Quantization Compatibility (DQC)** | Formalizes admissibility of discrete demand, zero-demand states, and operating-hour semantics for evaluation and control. | [Download](https://github.com/Economistician/eb-papers/releases/latest/download/ElectricBarometer_TN_DQC_latest.pdf) |
+| **Forecast Governance** | Defines deterministic governance gates that enforce structural validity, readiness thresholds, and policy constraints prior to action. | [Download](https://github.com/Economistician/eb-papers/releases/latest/download/ElectricBarometer_TN_GOVERNANCE_latest.pdf) |
+| **Readiness Adjustment Layer (RAL)** | Specifies a controlled post-evaluation adjustment mechanism that modifies forecasts to satisfy readiness and governance constraints under asymmetric cost. | [Download](https://github.com/Economistician/eb-papers/releases/latest/download/ElectricBarometer_TN_RAL_latest.pdf) |
 
 ---
 
-## When you should read the papers
+## Notes on versions and governance
 
-You should consult the Papers section when you need to:
+- **Download** links point to the latest authoritative build produced by the release workflow (`*_latest.pdf`)
+- Versioned PDFs are also produced per tag and remain archived as release assets
+- Updates are deliberate, reviewable, and traceable
 
-- Validate formal definitions or assumptions
-- Defend design choices under scrutiny
-- Understand theoretical guarantees or constraints
-- Support governance, audit, or review
-- Extend the framework formally
-
-If your goal is practical usage, start with **[Guides](../guides/)** or **[Concepts](../concepts/)** instead.
-
----
-
-## Governance and stability
-
-Papers are treated as governed artifacts:
-
-- They are versioned and archived
-- Superseded papers remain interpretable
-- Documentation links preserve historical context
-- Updates are deliberate and reviewable
-
-This ensures that decisions and evaluations remain traceable over time.
-
----
-
-## Where to go next
-
-- Browse **[Technical Notes](technical-notes/)** for focused formal definitions  
-- Explore **[Technical Papers](technical-papers/)** for system-level theory  
-- Return to **[Reference](../reference/)** for authoritative lookup  
-- Revisit **[Concepts](../concepts/)** for explanatory context  
-
-Papers are the formal backbone of Electric Barometer. They exist to make the framework credible, auditable, and durable as it evolves.
+This ensures the Electric Barometer framework remains **credible, auditable, and durable** as it evolves.
