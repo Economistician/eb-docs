@@ -1,3 +1,36 @@
+site_name: Electric Barometer
+site_description: Documentation hub for the Electric Barometer ecosystem
+site_url: https://economistician.github.io/eb-docs/
+
+repo_name: Economistician/eb-docs
+repo_url: https://github.com/Economistician/eb-docs
+
+theme:
+  name: material
+  logo: assets/brand/logo/electric_barometer.svg
+  favicon: assets/brand/favicon/favicon.svg
+  palette:
+    # Light mode
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - content.code.copy
+
 nav:
   - Home: index.md
 
@@ -42,8 +75,6 @@ nav:
           - Definition: metrics/cwsl/definition.md
           - Interpretation: metrics/cwsl/interpretation.md
           - Examples: metrics/cwsl/examples.md
-      - Other Metrics:
-          - Overview: metrics/other-metrics/index.md
 
   - Optimization:
       - Overview: optimization/index.md
@@ -65,13 +96,13 @@ nav:
           - Home: packages/eb-contracts/index.md
           - API Reference:
               - Definitions: packages/eb-contracts/api/definitions.md
-              - Migrate Forecast: packages/eb-contracts/api/migrate.forecast.md
+              - Migrate Forecast: packages/eb-contracts/api/migrate_forecast.md
               - Validate: packages/eb-contracts/api/validate.md
 
       - eb-metrics:
           - Home: packages/eb-metrics/index.md
           - API Reference:
-              - Metrics: packages/eb-metrics/api/metrics.md
+              - Metrics API: packages/eb-metrics/api/metrics.md
               - Frameworks: packages/eb-metrics/api/frameworks.md
 
       - eb-evaluation:
@@ -139,3 +170,41 @@ nav:
 
       - eb-integration:
           - Home: packages/eb-integration/index.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths:
+            - external/eb-contracts/src
+            - external/eb-metrics/src
+            - external/eb-evaluation/src
+            - external/eb-adapters/src
+            - external/eb-features/src
+            - external/eb-optimization/src
+            - external/eb-integration/src
+          options:
+            docstring_style: numpy
+            show_root_heading: true
+            show_source: false
+            members_order: source
+            show_signature: true
+            show_if_no_docstring: false
+
+extra_css:
+  - stylesheets/eb-brand-tokens.css
+  - stylesheets/eb-brand-colors.css
+  - stylesheets/extra.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
