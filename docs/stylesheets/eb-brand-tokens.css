@@ -6,12 +6,12 @@
   --eb-light-text-primary: #1098D4;
   --eb-light-text-secondary: #334155;
   --eb-light-text-muted: #475569;
-  --eb-light-text-on_brand: #1098D4;
-  --eb-light-text-on_header: #1098D4;
+  --eb-light-text-on-brand: #1098D4;
+  --eb-light-text-on-header: #1098D4;
   --eb-light-brand-primary: #1098D4;
-  --eb-light-brand-primary_muted: #2364A7;
+  --eb-light-brand-primary-muted: #2364A7;
   --eb-light-brand-accent: #F0BC2E;
-  --eb-light-brand-accent_muted: #F4D36A;
+  --eb-light-brand-accent-muted: #F4D36A;
   --eb-dark-background-canvas: #0B0F14;
   --eb-dark-background-surface: #111827;
   --eb-dark-background-header: #2E353D;
@@ -19,9 +19,9 @@
   --eb-dark-text-primary: #E5E7EB;
   --eb-dark-text-secondary: #9CA3AF;
   --eb-dark-text-muted: #6B7280;
-  --eb-dark-text-on_brand: #E5E7EB;
+  --eb-dark-text-on-brand: #E5E7EB;
   --eb-dark-brand-primary: #0C96D4;
-  --eb-dark-brand-primary_muted: #2364A7;
+  --eb-dark-brand-primary-muted: #2364A7;
   --eb-dark-brand-accent: #F4C940;
-  --eb-dark-brand-accent_muted: #C89E2A;
+  --eb-dark-brand-accent-muted: #C89E2A;
 }
