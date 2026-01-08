@@ -1,36 +1,3 @@
-site_name: Electric Barometer
-site_description: Documentation hub for the Electric Barometer ecosystem
-site_url: https://economistician.github.io/eb-docs/
-
-repo_name: Economistician/eb-docs
-repo_url: https://github.com/Economistician/eb-docs
-
-theme:
-  name: material
-  logo: assets/brand/logo/electric_barometer.svg
-  favicon: assets/brand/favicon/favicon.svg
-  palette:
-    # Light mode
-    - scheme: default
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    # Dark mode
-    - scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - navigation.indexes
-    - content.code.copy
-
 nav:
   - Home: index.md
 
@@ -39,7 +6,8 @@ nav:
       - Quickstart: start/quickstart.md
       - Ecosystem Map: start/ecosystem-map.md
 
-  - Electric Barometer: electric-barometer/index.md
+  - Electric Barometer:
+      - Overview: electric-barometer/index.md
 
   - Concepts:
       - Overview: concepts/index.md
@@ -68,12 +36,27 @@ nav:
       - Contributing: guides/contributing.md
       - Release Process: guides/release-process.md
 
+  - Metrics:
+      - Overview: metrics/index.md
+      - CWSL:
+          - Definition: metrics/cwsl/definition.md
+          - Interpretation: metrics/cwsl/interpretation.md
+          - Examples: metrics/cwsl/examples.md
+      - Other Metrics:
+          - Overview: metrics/other-metrics/index.md
+
+  - Optimization:
+      - Overview: optimization/index.md
+      - Cost Ratio: optimization/cost-ratio.md
+      - Policies: optimization/policies.md
+      - Tie Breaking: optimization/tie-breaking.md
+      - Tuning: optimization/tuning.md
+
   - Papers:
       - Overview: papers/index.md
-      - Technical Notes: papers/technical-notes.md
-      - Technical Papers: papers/technical-papers.md
 
-  - Reference: reference/index.md
+  - Reference:
+      - Overview: reference/index.md
 
   - Packages:
       - Overview: packages/index.md
@@ -82,19 +65,18 @@ nav:
           - Home: packages/eb-contracts/index.md
           - API Reference:
               - Definitions: packages/eb-contracts/api/definitions.md
-              - Migrate Forecast: packages/eb-contracts/api/migrate_forecast.md
+              - Migrate Forecast: packages/eb-contracts/api/migrate.forecast.md
               - Validate: packages/eb-contracts/api/validate.md
 
       - eb-metrics:
           - Home: packages/eb-metrics/index.md
           - API Reference:
-              - Metrics API: packages/eb-metrics/api/metrics.md
+              - Metrics: packages/eb-metrics/api/metrics.md
               - Frameworks: packages/eb-metrics/api/frameworks.md
 
       - eb-evaluation:
           - Home: packages/eb-evaluation/index.md
           - API Reference:
-              - Overview: packages/eb-evaluation/api/index.md
               - Adjustment:
                   - RAL: packages/eb-evaluation/api/adjustment/ral.md
               - DataFrame:
@@ -142,8 +124,6 @@ nav:
       - eb-optimization:
           - Home: packages/eb-optimization/index.md
           - API Reference:
-              - Overview: packages/eb-optimization/api/index.md
-              - eb_optimization: packages/eb-optimization/api/eb_optimization.md
               - Tuning:
                   - Cost Ratio: packages/eb-optimization/api/tuning/cost_ratio.md
                   - Tau (τ): packages/eb-optimization/api/tuning/tau.md
@@ -159,41 +139,3 @@ nav:
 
       - eb-integration:
           - Home: packages/eb-integration/index.md
-
-markdown_extensions:
-  - admonition
-  - toc:
-      permalink: true
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.highlight
-  - pymdownx.superfences
-
-plugins:
-  - search
-  - mkdocstrings:
-      handlers:
-        python:
-          paths:
-            - external/eb-contracts/src
-            - external/eb-metrics/src
-            - external/eb-evaluation/src
-            - external/eb-adapters/src
-            - external/eb-features/src
-            - external/eb-optimization/src
-            - external/eb-integration/src
-          options:
-            docstring_style: numpy
-            show_root_heading: true
-            show_source: false
-            members_order: source
-            show_signature: true
-            show_if_no_docstring: false
-
-extra_css:
-  - stylesheets/eb-brand-tokens.css
-  - stylesheets/eb-brand-colors.css
-  - stylesheets/extra.css
-
-extra_javascript:
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
