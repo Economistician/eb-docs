@@ -71,9 +71,12 @@ nav:
   - Metrics:
       - Overview: metrics/index.md
       - CWSL:
+          - Overview: metrics/cwsl/index.md
           - Definition: metrics/cwsl/definition.md
           - Interpretation: metrics/cwsl/interpretation.md
           - Examples: metrics/cwsl/examples.md
+      - Other Metrics:
+          - Overview: metrics/other-metrics/index.md
 
   - Optimization:
       - Overview: optimization/index.md
