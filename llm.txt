@@ -11,6 +11,12 @@ examples, and reference material that help people understand and apply EB.
 This repository explains the system.
 It does not define or enforce system behavior.
 
+STYLE
+- Inherits ecosystem-wide style and linting rules from
+  eb-integration/tooling/llm.style.txt via shared tooling.
+- Documentation style and formatting conventions may be layered on top,
+  but must not conflict with system law or code behavior.
+
 ---
 
 PRIMARY RESPONSIBILITIES
