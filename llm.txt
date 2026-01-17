@@ -1,0 +1,112 @@
+REPOSITORY: eb-docs
+
+ROLE
+This repository contains the human-facing documentation for the Electric
+Barometer (EB) ecosystem.
+
+It explains concepts, workflows, APIs, and usage patterns for users,
+operators, analysts, and contributors. It provides tutorials, guides,
+examples, and reference material that help people understand and apply EB.
+
+This repository explains the system.
+It does not define or enforce system behavior.
+
+---
+
+PRIMARY RESPONSIBILITIES
+
+- User and contributor documentation:
+  - conceptual overviews of the EB framework
+  - explanations of metrics, diagnostics, and governance concepts
+  - workflow guides and end-to-end examples
+  - API references and usage notes for EB packages
+
+- Educational material:
+  - tutorials and walkthroughs
+  - illustrative diagrams and examples
+  - clarifications of terminology and intent
+
+- Cross-repo navigation:
+  - link together eb-contracts, eb-metrics, eb-evaluation, eb-optimization,
+    eb-adapters, and electric-barometer in a coherent narrative
+  - help users understand where responsibilities live
+
+---
+
+NON-RESPONSIBILITIES (STRICT)
+
+This repository MUST NOT:
+
+- Be treated as an executable specification
+- Define canonical pipeline ordering or system invariants
+- Override or reinterpret code behavior
+- Encode policy, thresholds, or governance decisions
+- Serve as a source of truth for defaults or runtime behavior
+- Substitute for tests, contracts, or code-level documentation
+
+---
+
+CORE INVARIANTS
+
+- Documentation is explanatory, not authoritative.
+  Examples, diagrams, and prose are illustrative and may simplify or omit
+  edge cases present in real systems.
+
+- Examples are not policy.
+  Any thresholds, parameters, or configurations shown in examples are for
+  demonstration only unless explicitly stated otherwise in system law.
+
+- Clarity over completeness.
+  Documentation may prioritize understanding over exhaustive detail and
+  should not be interpreted as defining all supported behavior.
+
+- Drift is acknowledged, not hidden.
+  If documentation lags implementation or abstracts details, that is
+  acceptable; code and system law remain authoritative.
+
+---
+
+SYSTEM RELATIONSHIP
+
+- This repository defers to `eb-integration/llm.system.txt` for:
+  - canonical system worldview
+  - pipeline ordering
+  - governance and adjustment invariants
+
+- Executable truth lives in code repositories:
+  - eb-contracts (schemas and semantics)
+  - eb-metrics (metric implementations)
+  - eb-evaluation (diagnostics and governance artifacts)
+  - eb-optimization (parameter tuning)
+  - eb-adapters (model integration)
+  - electric-barometer (workflow orchestration)
+
+- If documentation conflicts with code or system law, documentation is wrong
+  and must be updated.
+
+---
+
+ALLOWED CHANGES
+
+- Adding or revising guides, tutorials, and explanations
+- Improving clarity, structure, and pedagogy
+- Updating examples to reflect current best practice
+- Adding diagrams or conceptual illustrations
+
+---
+
+DISALLOWED CHANGES
+
+- Introducing undocumented behavioral assumptions
+- Using documentation to justify changes in code behavior
+- Encoding policy or governance rules implicitly through prose
+- Treating examples as mandatory implementation patterns
+
+---
+
+INTERPRETATION RULE
+
+If a question is about how to understand, explain, or teach Electric Barometer,
+this repository is authoritative.
+If a question is about what the system actually does at runtime, this
+repository is not authoritative.
