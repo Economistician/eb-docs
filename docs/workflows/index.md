@@ -23,19 +23,19 @@ Workflows are intentionally designed to enforce:
 
 The workflows in this section are ordered as a complete pipeline:
 
-- **[Data → Forecast](data-to-forecast.md)**  
+- **[Data → Forecast](data-to-forecast.md)**
   Define evaluation entities, windows, and admissible unit conventions; produce forecast-ready panels and candidate forecast sets.
 
-- **[Forecast → Evaluation](forecast-to-evaluation.md)**  
+- **[Forecast → Evaluation](forecast-to-evaluation.md)**
   Compute readiness diagnostics (e.g., coverage, asymmetric loss, tolerance behavior) under governed interpretation semantics.
 
-- **[Evaluation → Selection](evaluation-to-selection.md)**  
+- **[Evaluation → Selection](evaluation-to-selection.md)**
   Select among candidate forecasts using readiness-oriented objectives and tie-breaking rules, without collapsing evaluation into model training.
 
-- **[Selection → Policy](selection-to-policy.md)**  
+- **[Selection → Policy](selection-to-policy.md)**
   Convert evaluated outcomes into explicit, bounded policies suitable for deployment (including readiness adjustment allowability and policy structure).
 
-- **[Reproducibility Artifacts](reproducibility-artifacts.md)**  
+- **[Reproducibility Artifacts](reproducibility-artifacts.md)**
   Record the minimal artifact set required to reproduce an evaluation, a selection, and a policy decision exactly.
 
 ---
@@ -71,9 +71,9 @@ If you are new to the framework, start with **[Concepts](../concepts/)** first, 
 
 Across all workflow pages:
 
-- “Evaluation” refers to computing diagnostics under declared assumptions.  
-- “Selection” refers to choosing among candidates using those diagnostics.  
-- “Policy” refers to explicit, bounded, versioned rules suitable for downstream execution.  
+- “Evaluation” refers to computing diagnostics under declared assumptions.
+- “Selection” refers to choosing among candidates using those diagnostics.
+- “Policy” refers to explicit, bounded, versioned rules suitable for downstream execution.
 - Any parameter that changes interpretation (e.g., tolerance, asymmetry, snapping semantics) is treated as a **governed artifact**, not an ad hoc knob.
 
 This section aims to make the pipeline **obvious, repeatable, and reviewable**.

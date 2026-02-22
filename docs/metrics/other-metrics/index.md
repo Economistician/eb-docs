@@ -136,7 +136,7 @@ For composite readiness evaluation and cost-sensitive analysis, refer to:
 
 ## Summary
 
-CWSL captures *cost exposure*.  
+CWSL captures *cost exposure*.
 The metrics in this section explain *why that exposure arises*.
 
 Together, they form a diagnostic stack that supports **defensible readiness evaluation**

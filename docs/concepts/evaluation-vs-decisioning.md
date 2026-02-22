@@ -121,7 +121,7 @@ By disentangling evaluation from decisioning, Electric Barometer improves:
 - Accountability — policy choices are visible and reviewable.
 - Adaptability — policies can evolve as priorities change.
 
-Evaluation tells you *what happened*.  
+Evaluation tells you *what happened*.
 Decisioning determines *what you do about it*.
 
 Electric Barometer treats both as essential, but distinct, components of a responsible forecasting system.

@@ -166,5 +166,5 @@ Once evaluation completes, the system can answer:
 
 > *Given governed assumptions, how do these forecasts behave relative to readiness objectives?*
 
-Choosing among them is a separate step, addressed in  
+Choosing among them is a separate step, addressed in
 **[Evaluation → Selection](evaluation-to-selection.md)**.

@@ -17,10 +17,10 @@ It intentionally avoids evaluation logic, optimization policies, or runtime orch
 
 ## Contents
 
-- **Feature builders**  
+- **Feature builders**
   Utilities for constructing derived features from raw inputs
 
-- **Feature transforms**  
+- **Feature transforms**
   Reusable transformations applied across modeling workflows
 
 ## API reference

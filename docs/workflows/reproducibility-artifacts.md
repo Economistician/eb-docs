@@ -135,13 +135,13 @@ This artifact is binding and terminates interpretation.
 
 All reproducibility artifacts must satisfy:
 
-- **Determinism**  
+- **Determinism**
   Identical artifacts must produce identical outcomes.
 
-- **Explicit versioning**  
+- **Explicit versioning**
   Diagnostic definitions, thresholds, and policies must be versioned or hashable.
 
-- **No hidden state**  
+- **No hidden state**
   No workflow may rely on implicit defaults, learned state, or external context.
 
 ---

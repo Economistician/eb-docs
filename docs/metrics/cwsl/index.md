@@ -41,16 +41,16 @@ CWSL does not assume universal cost ratios. All weighting choices are contextual
 
 The CWSL documentation is organized by intent:
 
-- **[Definition](definition/)**  
+- **[Definition](definition/)**
   Formal definition of CWSL, including structure, scope, and encoded assumptions.
 
-- **[Interpretation](interpretation/)**  
+- **[Interpretation](interpretation/)**
   Guidance on how to read and compare CWSL values responsibly.
 
-- **[Examples](examples/)**  
+- **[Examples](examples/)**
   Illustrative scenarios demonstrating how CWSL behaves under different conditions.
 
-- **[Assumptions](assumptions/)**  
+- **[Assumptions](assumptions/)**
   Detailed discussion of the assumptions CWSL encodes and their implications.
 
 Each page focuses on a distinct aspect of understanding CWSL. Together, they form a complete, non-overlapping explanation.

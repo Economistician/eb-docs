@@ -30,22 +30,22 @@ Each concept page focuses on a single foundational idea and is written to stand 
 
 The recommended reading order is:
 
-1. **[Problem Framing](problem-framing/)**  
+1. **[Problem Framing](problem-framing/)**
    Defines how forecasting problems should be framed as decision problems rather than prediction tasks.
 
-2. **[Asymmetric Cost](asymmetric-cost/)**  
+2. **[Asymmetric Cost](asymmetric-cost/)**
    Explains why the direction and context of error matter more than magnitude alone in operational settings.
 
-3. **[Evaluation vs Decisioning](evaluation-vs-decisioning/)**  
+3. **[Evaluation vs Decisioning](evaluation-vs-decisioning/)**
    Separates measurement from action, clarifying the role of metrics versus policy.
 
-4. **[Governance](governance/)**  
+4. **[Governance](governance/)**
    Describes how evaluation and decision processes are controlled, audited, and evolved over time.
 
-5. **[Readiness and the Readiness Adjustment Layer (RAL)](readiness-and-ral/)**  
+5. **[Readiness and the Readiness Adjustment Layer (RAL)](readiness-and-ral/)**
    Introduces readiness as a decision-facing concept and explains how evaluation outputs are made suitable for operational use.
 
-6. **[Glossary](glossary/)**  
+6. **[Glossary](glossary/)**
    Provides a shared vocabulary used consistently throughout the Electric Barometer ecosystem.
 
 While the concepts build on one another, they are designed to be referenced independently as needed.

@@ -46,7 +46,7 @@ Cost ratios are **inputs to metrics**, not metrics themselves.
 
 For example:
 
-- CWSL uses cost ratios to weight error direction  
+- CWSL uses cost ratios to weight error direction
   (see **[CWSL Definition](../metrics/cwsl/definition/)**)
 - Changing the cost ratio changes metric output
 - The metric computation itself remains unchanged

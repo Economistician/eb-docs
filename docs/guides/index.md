@@ -43,7 +43,7 @@ You should consult this section when you are asking questions such as:
 - *When is readiness adjustment appropriate — and when is it not?*
 - *How should governance outcomes be communicated downstream?*
 
-If you are asking *what the framework is*, start with **Concepts**.  
+If you are asking *what the framework is*, start with **Concepts**.
 If you are asking *how the system runs*, start with **Workflows**.
 
 ---
@@ -52,18 +52,18 @@ If you are asking *how the system runs*, start with **Workflows**.
 
 The guides in this section are organized around common application themes:
 
-- **Interpretation guides**  
+- **Interpretation guides**
   How to interpret readiness diagnostics, tolerance behavior, and cost asymmetry in operational
   contexts.
 
-- **Application guides**  
+- **Application guides**
   How to apply Electric Barometer to specific problem classes (e.g., production, staffing,
   replenishment) without hard-coding domain assumptions into the framework.
 
-- **Governance and policy guides**  
+- **Governance and policy guides**
   How to reason about governance outcomes, decision closure, and policy communication.
 
-- **Anti-patterns and pitfalls**  
+- **Anti-patterns and pitfalls**
   Common misuses of readiness metrics, adjustment layers, and evaluation outputs.
 
 Each guide is written to stand alone and may be read independently.

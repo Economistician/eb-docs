@@ -23,19 +23,19 @@ The goal is clarity, not consolidation.
 
 At a high level, the ecosystem spans five functional layers:
 
-1. **Concepts and Documentation**  
+1. **Concepts and Documentation**
    Define the mental model, vocabulary, and system structure.
 
-2. **Features and Adapters**  
+2. **Features and Adapters**
    Prepare inputs and connect external systems.
 
-3. **Metrics and Evaluation**  
+3. **Metrics and Evaluation**
    Measure forecasting system behavior under explicit assumptions.
 
-4. **Optimization and Policy**  
+4. **Optimization and Policy**
    Resolve tradeoffs and translate evaluation into decisions.
 
-5. **Research and Formalization**  
+5. **Research and Formalization**
    Provide mathematical and theoretical grounding.
 
 Each layer is represented by one or more repositories.
@@ -171,13 +171,13 @@ These artifacts serve as stable, citable references.
 
 A typical lifecycle flows as follows:
 
-1. Feature transforms prepare inputs  
-2. Adapters connect data and execution environments  
-3. Forecasting systems generate predictions  
-4. Metrics evaluate system behavior  
-5. Optimization applies policy and readiness  
-6. Decisions are selected and governed  
-7. Releases preserve reproducibility  
+1. Feature transforms prepare inputs
+2. Adapters connect data and execution environments
+3. Forecasting systems generate predictions
+4. Metrics evaluate system behavior
+5. Optimization applies policy and readiness
+6. Decisions are selected and governed
+7. Releases preserve reproducibility
 
 Each step corresponds to one or more repositories, coordinated through shared concepts rather than tight coupling.
 
@@ -187,11 +187,11 @@ Each step corresponds to one or more repositories, coordinated through shared co
 
 If you are:
 
-- **New to Electric Barometer** — start with **[Concepts](../concepts/)**  
-- **Running evaluations** — see **[Guides](../guides/)**  
-- **Working with metrics** — explore **[Metrics](../metrics/)**  
-- **Defining policies** — review **[Optimization](../optimization/)**  
-- **Looking for formal definitions** — consult **[Papers](../papers/)**  
+- **New to Electric Barometer** — start with **[Concepts](../concepts/)**
+- **Running evaluations** — see **[Guides](../guides/)**
+- **Working with metrics** — explore **[Metrics](../metrics/)**
+- **Defining policies** — review **[Optimization](../optimization/)**
+- **Looking for formal definitions** — consult **[Papers](../papers/)**
 
 This documentation site provides the map; each repository provides the detail.
 

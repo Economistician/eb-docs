@@ -52,15 +52,15 @@ code {
    Lifts the "Layer X" text completely out of the box. */
 .mermaid .subgraph-title {
   /* Increased lift to ensure it clears the border entirely */
-  transform: translateY(-32px) translateX(-2px) !important; 
+  transform: translateY(-32px) translateX(-2px) !important;
   font-weight: 700 !important;
   font-size: 14px !important;
-  
-  /* Robust Halo Effect 
+
+  /* Robust Halo Effect
      Uses the theme background color to mask lines passing underneath. */
   paint-order: stroke;
-  stroke: var(--md-default-bg-color) !important; 
-  stroke-width: 10px !important; 
+  stroke: var(--md-default-bg-color) !important;
+  stroke-width: 10px !important;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
@@ -74,14 +74,14 @@ code {
   stroke-linejoin: round;
 }
 
-/* Ensure the diagram container doesn't clip the titles 
+/* Ensure the diagram container doesn't clip the titles
    now that they are floating outside the border. */
 .mermaid svg {
   max-width: 100%;
   height: auto;
   overflow: visible !important;
   /* Extra top padding so Layer 1 title isn't cut off at the page top */
-  padding-top: 40px !important; 
+  padding-top: 40px !important;
 }
 
 .mermaid .cluster {

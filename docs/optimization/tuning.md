@@ -55,16 +55,16 @@ A fixed set of assumptions rarely remains optimal over time. Tuning allows the s
 
 Within Electric Barometer, tunable elements include:
 
-- **Cost ratios**  
+- **Cost ratios**
   (see **[Cost Ratio Optimization](cost-ratio/)**)
 
-- **Policy parameters**  
+- **Policy parameters**
   (see **[Policies](policies/)**)
 
-- **Tie-breaking rules**  
+- **Tie-breaking rules**
   (see **[Tie-Breaking](tie-breaking/)**)
 
-- **Readiness adjustments**  
+- **Readiness adjustments**
   (see **[Readiness and RAL](../concepts/readiness-and-ral/)**)
 
 Tuning focuses on *how evaluation results are interpreted*, not on how they are computed.
@@ -78,7 +78,7 @@ Although related, tuning and optimization serve different purposes.
 - **Optimization** explores tradeoffs and candidate configurations
 - **Tuning** selects and refines configurations based on intent
 
-Optimization surfaces possibilities.  
+Optimization surfaces possibilities.
 Tuning commits to choices.
 
 For procedural guidance, see **[Tune a Policy](../guides/tune-a-policy/)**.
@@ -89,7 +89,7 @@ For procedural guidance, see **[Tune a Policy](../guides/tune-a-policy/)**.
 
 A typical tuning workflow includes:
 
-1. Running an evaluation  
+1. Running an evaluation
    (see **[Run an Evaluation](../guides/run-an-evaluation/)**)
 
 2. Identifying tunable parameters

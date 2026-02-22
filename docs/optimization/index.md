@@ -41,10 +41,10 @@ Optimization sits between evaluation and decisioning.
 
 A simplified lifecycle:
 
-1. Forecasting systems generate outputs  
-2. Metrics evaluate behavior  
-3. Optimization explores tradeoffs and applies policy  
-4. Decisions are made deliberately and governed  
+1. Forecasting systems generate outputs
+2. Metrics evaluate behavior
+3. Optimization explores tradeoffs and applies policy
+4. Decisions are made deliberately and governed
 
 Optimization ensures that decisions reflect intent rather than accident.
 

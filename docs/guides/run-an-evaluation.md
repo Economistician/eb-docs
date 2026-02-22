@@ -147,7 +147,7 @@ Evaluation produces information, not decisions.
 
 Typical next steps include:
 
-- Applying readiness adjustments  
+- Applying readiness adjustments
   (see **[Readiness and RAL](../concepts/readiness-and-ral/)**)
 - Comparing systems under explicit policy rules
 - Performing sensitivity analysis
@@ -176,7 +176,7 @@ For a full discussion, see **[Governance](../concepts/governance/)**.
 
 Within the Electric Barometer framework:
 
-- Feature transforms define system inputs  
+- Feature transforms define system inputs
   (see **[Add a Feature Transform](add-a-feature-transform/)**)
 - Forecasting systems produce candidate outputs
 - Evaluation measures behavior under explicit criteria
@@ -190,8 +190,8 @@ Evaluation is the measurement backbone of this lifecycle.
 
 ## Where to go next
 
-- Add or refine metrics using **[Add a Metric](add-a-metric/)**  
-- Apply policy and tuning in **[Optimization](../optimization/)**  
+- Add or refine metrics using **[Add a Metric](add-a-metric/)**
+- Apply policy and tuning in **[Optimization](../optimization/)**
 - Review **[Evaluation vs Decisioning](../concepts/evaluation-vs-decisioning/)** to reinforce role boundaries
 
 Running an evaluation is not about declaring winners. It is about producing reliable, decision-relevant information. Electric Barometer is designed to make that process explicit and reproducible.

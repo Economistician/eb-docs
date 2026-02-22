@@ -24,16 +24,16 @@ Reference pages prioritize clarity, completeness, and stability over narrative f
 
 Reference documentation intentionally avoids:
 
-- Step-by-step instructions  
+- Step-by-step instructions
   (see **[Guides](../guides/)**)
 
-- Conceptual motivation or philosophy  
+- Conceptual motivation or philosophy
   (see **[Concepts](../concepts/)**)
 
-- Policy decisions or tradeoff rationale  
+- Policy decisions or tradeoff rationale
   (see **[Optimization](../optimization/)**)
 
-- Implementation details or code-level APIs  
+- Implementation details or code-level APIs
   (see repository-specific documentation)
 
 ---
@@ -93,14 +93,14 @@ This stability supports governance, auditability, and long-term maintainability.
 
 If you are:
 
-- Looking for *how to do something* → see **[Guides](../guides/)**  
-- Looking for *why something exists* → see **[Concepts](../concepts/)**  
-- Looking for *how decisions are made* → see **[Optimization](../optimization/)**  
-- Looking for *formal theory* → see **[Papers](../papers/)**  
+- Looking for *how to do something* → see **[Guides](../guides/)**
+- Looking for *why something exists* → see **[Concepts](../concepts/)**
+- Looking for *how decisions are made* → see **[Optimization](../optimization/)**
+- Looking for *formal theory* → see **[Papers](../papers/)**
 
 The Reference section exists to ground the rest of the documentation in precise, shared understanding.
 
 ---
 
-Electric Barometer documentation is designed to separate explanation, instruction, and reference.  
+Electric Barometer documentation is designed to separate explanation, instruction, and reference.
 This section is where definitions live.

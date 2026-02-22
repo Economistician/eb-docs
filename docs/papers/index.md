@@ -2,14 +2,14 @@
 
 This section provides direct access to the formal research and technical foundations of the **Electric Barometer** framework.
 
-All papers are authored and maintained in the **eb-papers** repository.  
+All papers are authored and maintained in the **eb-papers** repository.
 This page serves as a **navigation and download index** for the latest authoritative PDF builds.
 
 ---
 
 ## Electric Barometer Ecosystem
 
-Foundational research defining readiness-based forecast evaluation, asymmetric loss, admissibility, and governance for operational decision systems.  
+Foundational research defining readiness-based forecast evaluation, asymmetric loss, admissibility, and governance for operational decision systems.
 These papers establish the core theoretical and technical primitives that underpin the Electric Barometer ecosystem.
 
 | Topic | Description | PDF |
@@ -32,7 +32,7 @@ These papers establish the core theoretical and technical primitives that underp
 
 ## Operational Control Frameworks
 
-Applied control frameworks that operationalize Electric Barometer primitives for specific decision environments under demand uncertainty.  
+Applied control frameworks that operationalize Electric Barometer primitives for specific decision environments under demand uncertainty.
 These frameworks consume the core ecosystem constructs to produce concrete, policy-driven decision systems.
 
 | Topic | Description | PDF |

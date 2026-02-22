@@ -19,7 +19,7 @@ Policy tuning does **not**:
 - Reinterpret evaluation results ad hoc
 - Replace evaluation with heuristics
 
-Evaluation measures behavior.  
+Evaluation measures behavior.
 Policy determines action.
 
 For the conceptual boundary, see **[Evaluation vs Decisioning](../concepts/evaluation-vs-decisioning/)**.
@@ -44,13 +44,13 @@ Policy tuning is expected and normal. Treating policy as fixed often leads to br
 
 Before tuning a policy, ensure that:
 
-- An evaluation has been run and preserved  
+- An evaluation has been run and preserved
   (see **[Run an Evaluation](run-an-evaluation/)**)
-- Evaluation metrics and parameters are understood  
+- Evaluation metrics and parameters are understood
   (see **[Metrics](../metrics/)**)
-- The decision context is clearly framed  
+- The decision context is clearly framed
   (see **[Problem Framing](../concepts/problem-framing/)**)
-- Governance expectations are clear  
+- Governance expectations are clear
   (see **[Governance](../concepts/governance/)**)
 
 Policy tuning without these prerequisites risks optimizing the wrong objective.
@@ -163,9 +163,9 @@ Governance ensures that policy evolution remains transparent and auditable. See 
 
 Within the Electric Barometer framework:
 
-- Evaluation measures system behavior  
+- Evaluation measures system behavior
   (see **[Run an Evaluation](run-an-evaluation/)**)
-- Readiness contextualizes evaluation outputs  
+- Readiness contextualizes evaluation outputs
   (see **[Readiness and RAL](../concepts/readiness-and-ral/)**)
 - Policy tuning defines how tradeoffs are resolved
 - Decisioning applies tuned policies consistently

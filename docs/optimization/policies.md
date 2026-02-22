@@ -101,7 +101,7 @@ Metrics measure behavior under assumptions. Policies determine what to do with t
 
 For example:
 
-- CWSL measures cost-aligned loss  
+- CWSL measures cost-aligned loss
   (see **[CWSL](../metrics/cwsl/)**)
 - A policy may prioritize lower CWSL under certain constraints
 - Another policy may tolerate higher CWSL for improved stability
@@ -222,8 +222,8 @@ Explicit policies enable:
 - Safe evolution of evaluation systems
 - Alignment between technical systems and organizational goals
 
-Without policies, decisions drift.  
-Without structural policies, decisions may rest on invalid measurements.  
+Without policies, decisions drift.
+Without structural policies, decisions may rest on invalid measurements.
 With explicit policies, decisions are governed.
 
 ---

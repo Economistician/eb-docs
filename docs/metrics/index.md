@@ -26,13 +26,13 @@ Using multiple metrics allows evaluators to understand tradeoffs rather than col
 
 Metrics other than CWSL typically serve one of three roles:
 
-1. **Diagnostic**  
+1. **Diagnostic**
    Help explain *why* a system behaves the way it does
 
-2. **Complementary**  
+2. **Complementary**
    Surface properties not directly captured by cost-weighted loss
 
-3. **Contextual**  
+3. **Contextual**
    Provide additional signal under specific operating conditions
 
 These metrics inform understanding; they do not override policy or decision logic.
@@ -58,16 +58,16 @@ Disagreement between metrics is expected and often informative.
 
 While Electric Barometer does not prescribe a fixed taxonomy, commonly useful categories include:
 
-- **Symmetric accuracy metrics**  
+- **Symmetric accuracy metrics**
   e.g., absolute or squared error measures
 
-- **Bias and directional metrics**  
+- **Bias and directional metrics**
   e.g., systematic over- or under-forecasting tendencies
 
-- **Stability and volatility metrics**  
+- **Stability and volatility metrics**
   e.g., sensitivity to noise or regime changes
 
-- **Coverage or feasibility metrics**  
+- **Coverage or feasibility metrics**
   e.g., constraint violations or infeasible outputs
 
 Specific metrics within these categories may vary by application.
@@ -138,5 +138,5 @@ Other metrics enrich evaluation without replacing core principles.
 - See **[Evaluation vs Decisioning](../../concepts/evaluation-vs-decisioning/)** for role clarity
 - Consult **[Guides](../../guides/)** for evaluation workflows
 
-Electric Barometer treats metrics as lenses, not verdicts.  
+Electric Barometer treats metrics as lenses, not verdicts.
 Other metrics exist to broaden understanding, not to fragment decision-making.

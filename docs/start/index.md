@@ -28,19 +28,19 @@ This documentation is organized by **intent**, not by repository or codebase.
 
 You will encounter five major sections:
 
-- **Concepts** — the foundational ideas and vocabulary  
+- **Concepts** — the foundational ideas and vocabulary
   (why the system is structured the way it is)
 
-- **Guides** — task-oriented instructions and workflows  
+- **Guides** — task-oriented instructions and workflows
   (how to do common things)
 
-- **Metrics** — evaluation lenses and interpretation  
+- **Metrics** — evaluation lenses and interpretation
   (what is being measured)
 
-- **Optimization** — policy, tuning, and decision rules  
+- **Optimization** — policy, tuning, and decision rules
   (how tradeoffs are resolved)
 
-- **Papers** — formal definitions and theoretical foundations  
+- **Papers** — formal definitions and theoretical foundations
   (the mathematical and research grounding)
 
 Each section builds on the previous ones, but they are designed to be navigated independently as needed.
@@ -58,24 +58,24 @@ Start with:
 
 ### If you want to understand the system philosophy
 Go to:
-- **[Concepts](../concepts/)**, starting with  
-  **[Problem Framing](../concepts/problem-framing/)** and  
+- **[Concepts](../concepts/)**, starting with
+  **[Problem Framing](../concepts/problem-framing/)** and
   **[Asymmetric Cost](../concepts/asymmetric-cost/)**
 
 ### If you want to run evaluations or contribute
 Begin with:
-- **[Guides](../guides/)**  
+- **[Guides](../guides/)**
   especially **[Run an Evaluation](../guides/run-an-evaluation/)**
 
 ### If you are interested in metrics
 Explore:
-- **[Metrics](../metrics/)**  
+- **[Metrics](../metrics/)**
   including **[Cost-Weighted Service Loss (CWSL)](../metrics/cwsl/)**
 
 ### If you are defining or tuning decision logic
 See:
-- **[Optimization](../optimization/)**  
-  including **[Policies](../optimization/policies/)** and  
+- **[Optimization](../optimization/)**
+  including **[Policies](../optimization/policies/)** and
   **[Cost Ratio Optimization](../optimization/cost-ratio/)**
 
 ---
@@ -97,11 +97,11 @@ It is a framework for making forecasting-driven decisions **explicit, governed, 
 
 At a high level, Electric Barometer follows this sequence:
 
-1. Frame the decision problem  
-2. Evaluate forecasting system behavior  
-3. Apply readiness considerations  
-4. Tune policy and cost assumptions  
-5. Make governed decisions  
+1. Frame the decision problem
+2. Evaluate forecasting system behavior
+3. Apply readiness considerations
+4. Tune policy and cost assumptions
+5. Make governed decisions
 
 This separation is intentional. Each step has a different purpose and set of responsibilities.
 
@@ -122,15 +122,15 @@ That page explains how documentation, features, metrics, optimization, integrati
 
 If you are unsure where to go next, the safest progression is:
 
-1. **[Quickstart](quickstart/)**  
-2. **[Concepts](../concepts/)**  
-3. **[Guides](../guides/)**  
-4. **[Metrics](../metrics/)**  
-5. **[Optimization](../optimization/)**  
+1. **[Quickstart](quickstart/)**
+2. **[Concepts](../concepts/)**
+3. **[Guides](../guides/)**
+4. **[Metrics](../metrics/)**
+5. **[Optimization](../optimization/)**
 
 Each section deepens understanding without requiring you to jump ahead prematurely.
 
 ---
 
-Electric Barometer rewards careful thinking and explicit assumptions.  
+Electric Barometer rewards careful thinking and explicit assumptions.
 Start here, move deliberately, and let evaluation inform decisions rather than replace them.
