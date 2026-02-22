@@ -1,0 +1,27 @@
+:root {
+  --eb-light-background-canvas: #E9EEF3;
+  --eb-light-background-surface: #DDE4EA;
+  --eb-light-background-header: #3F4750;
+  --eb-light-background-divider: #C3CDD7;
+  --eb-light-text-primary: #1098D4;
+  --eb-light-text-secondary: #334155;
+  --eb-light-text-muted: #475569;
+  --eb-light-text-on-brand: #1098D4;
+  --eb-light-text-on-header: #1098D4;
+  --eb-light-brand-primary: #1098D4;
+  --eb-light-brand-primary-muted: #2364A7;
+  --eb-light-brand-accent: #F0BC2E;
+  --eb-light-brand-accent-muted: #F4D36A;
+  --eb-dark-background-canvas: #0B0F14;
+  --eb-dark-background-surface: #111827;
+  --eb-dark-background-header: #2E353D;
+  --eb-dark-background-divider: #1F2937;
+  --eb-dark-text-primary: #E5E7EB;
+  --eb-dark-text-secondary: #9CA3AF;
+  --eb-dark-text-muted: #6B7280;
+  --eb-dark-text-on-brand: #E5E7EB;
+  --eb-dark-brand-primary: #0C96D4;
+  --eb-dark-brand-primary-muted: #2364A7;
+  --eb-dark-brand-accent: #F4C940;
+  --eb-dark-brand-accent-muted: #C89E2A;
+}
