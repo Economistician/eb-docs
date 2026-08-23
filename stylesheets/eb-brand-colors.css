@@ -1,0 +1,34 @@
+/* Auto-generated from eb-brand tokens */
+
+/* ---------------------------
+   Light mode (default)
+--------------------------- */
+:root {
+  /* Header / primary */
+  --md-primary-fg-color:        var(--eb-light-background-header);
+  --md-primary-fg-color--light:  var(--eb-light-background-header);
+  --md-primary-fg-color--dark:   var(--eb-light-background-header);
+  --md-primary-bg-color:        var(--eb-light-text-on-brand);
+
+  /* Accent */
+  --md-accent-fg-color:         var(--eb-light-brand-accent);
+
+  /* Page */
+  --md-default-bg-color:        var(--eb-light-background-canvas);
+  --md-default-fg-color:        var(--eb-light-text-primary);
+}
+
+/* ---------------------------
+   Dark mode (slate)
+--------------------------- */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        var(--eb-dark-background-header);
+  --md-primary-fg-color--light:  var(--eb-dark-background-header);
+  --md-primary-fg-color--dark:   var(--eb-dark-background-header);
+  --md-primary-bg-color:        var(--eb-dark-text-on-brand);
+
+  --md-accent-fg-color:         var(--eb-dark-brand-accent);
+
+  --md-default-bg-color:        var(--eb-dark-background-canvas);
+  --md-default-fg-color:        var(--eb-dark-text-primary);
+}
